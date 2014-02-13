@@ -21,7 +21,7 @@ namespace Application.DataType.memberFileBrowser
     [ClientDependency(ClientDependencyType.Javascript, "ui/knockout.mapping.js", "UmbracoClient", Priority = 4)]
     [ClientDependency(ClientDependencyType.Javascript, "ContextMenu/Js/jquery.contextMenu.js", "UmbracoClient", Priority = 5)]
     [ClientDependency(ClientDependencyType.Javascript, "FileUploader/js/jquery.fileUploader.js", "UmbracoClient", Priority = 6)]
-    [ClientDependency(ClientDependencyType.Javascript, "FolderBrowser/js/folderbrowser.js", "UmbracoClient", Priority = 10)]
+    [ClientDependency(ClientDependencyType.Javascript, "FolderBrowser/js/folderbrowserformember.js", "UmbracoClient", Priority = 10)]
     [ToolboxData("<{0}:MemberFileBrowser runat=server></{0}:MemberFileBrowser>")]
     public class MemberFileBrowser : WebControl
     {
